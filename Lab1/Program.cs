@@ -6,17 +6,17 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            
+                  // Step 1
             /*
             Name: Avi Zarbavel
             Title: IT-1050 - Lab 1
             */
 
-            // Step 1
+       	// Step 2
             Console.WriteLine("My Name: Avi Zarbavel");
             Console.WriteLine("Course Title: IT-1050 - Programming Logic");
        		
-           	// Step 2
+           	// Step 3
             int favoriteNumber = 3; // My favorite number since childhood
             Console.WriteLine("My favorite number is: " + favoriteNumber);
                 
@@ -28,12 +28,14 @@ namespace Lab1
             
              bool hasProgrammingExperience = true; // true I got epirience from a course previous to this one
             Console.WriteLine("Do I have programming experience? " + hasProgrammingExperience);
+            
 
             // Step 4:constant variable
-            const string schoolName = "The Ohio State University"; // Your school name
+            const string schoolName = "The Ohio State University"; // My full time school name
             Console.WriteLine("What School I go to?: " + schoolName);
             
-            // Step 5 data type conversions
+            
+            // Step 5: data type conversions
             double decimalValue = 9.28;
             int intFromDouble = (int)decimalValue; // Explicit casting from double to int
             Console.WriteLine("Original double: " + decimalValue);
@@ -42,6 +44,7 @@ namespace Lab1
              int numberToConvert = 72; // converting integer
             string stringFromInt = Convert.ToString(numberToConvert); // Convert int to string
             Console.WriteLine("Integer converted to a string: " + stringFromInt);
+
 
              // Step 6: Getting input from user
             Console.Write("Please enter your name: Avi Zarbavel ");
@@ -53,7 +56,7 @@ namespace Lab1
 
             Console.WriteLine("Hello, Avi Zarbavel" + userName + "! You are 18 " + userAge +" years old.");
             
-            // Step 7:  arithmetic operations
+            // Step 7:arithmetic operations
             int num1 = 24;
             int num2 = 7;
 
@@ -65,14 +68,23 @@ namespace Lab1
             Console.WriteLine("Division (num1 / 2): " + (num1 / 2)); // division
             Console.WriteLine("Modulus (num1 % num2): " + (num1 % num2)); // remainder after division
             
-             // Step 9: Use increment and decrement operators
+            // Step 8: Differences between Float and Double Value?
+            float floatValue = 1.123456789f; // the f is need for the float clalculation
+            double doublePrecisionValue = 1.123456789;
+
+            Console.WriteLine("\nFloat value: " + floatValue);
+            Console.WriteLine("Double value: " + doublePrecisionValue);
+            Console.WriteLine("My Observation: As we can see the Float value gives us a more presice final calculation via calculating to a more presice and further decimal point. I find a lot of irony in the Double value being called doublePrecisionValue yet it wasn't as accurate as Float.");
+          
+            
+             // Step 9:increment and decrement 
             int count = 10;
             Console.WriteLine("\nInitial count: " + count);
 
-            count++; // Increment the value of count by 1
+            count++; // Increment count by 1
             Console.WriteLine("After increment: " + count);
 
-            count--; // Decrement the value of count by 1
+            count--; // Decrement count by 1
             Console.WriteLine("After decrement: " + count);
              }
              	}	
