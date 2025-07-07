@@ -49,9 +49,32 @@ namespace Lab1
 
             Console.Write("Please enter your age: 18 ");
             string ageString = Console.ReadLine();
-            int userAge = Convert.ToInt32(ageString); // Convert the input string to an integer- I am strugiling with have errors when I input the int userAge.
+            int userAge = Convert.ToInt32(ageString); // Convert the input string to an integer- I am struggling with have errors when I input the int userAge.
 
-            Console.WriteLine("Hello, Avi Zarbavel" + userName + "! You are" + userAge +" years old.");
+            Console.WriteLine("Hello, Avi Zarbavel" + userName + "! You are 18 " + userAge +" years old.");
+            
+            // Step 7:  arithmetic operations
+            int num1 = 24;
+            int num2 = 7;
+
+            Console.WriteLine("\nNumbers for arithmetic: " + num1 + " and " + num2);
+
+            Console.WriteLine("Addition (num1 + 10): " + (num1 + 10)); // add 10 to num1
+            Console.WriteLine("Subtraction (num2 - 2): " + (num2 - 2)); // subtract 2 from num2
+            Console.WriteLine("Multiplication (num1 * 3): " + (num1 * 3));
+            Console.WriteLine("Division (num1 / 2): " + (num1 / 2)); // division
+            Console.WriteLine("Modulus (num1 % num2): " + (num1 % num2)); // remainder after division
+            
+             // Step 9: Use increment and decrement operators
+            int count = 10;
+            Console.WriteLine("\nInitial count: " + count);
+
+            count++; // Increment the value of count by 1
+            Console.WriteLine("After increment: " + count);
+
+            count--; // Decrement the value of count by 1
+            Console.WriteLine("After decrement: " + count);
              }
              	}	
                    }
+       
