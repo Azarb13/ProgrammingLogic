@@ -7,4 +7,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+dotnet new console -n Lab2 --use-program-main
+dotnet sln add Lab2/Lab2.csproj
+
 </Project>
